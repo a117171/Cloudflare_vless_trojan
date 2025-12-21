@@ -21,7 +21,7 @@ curl -sSL https://raw.githubusercontent.com/yonggekkk/Cloudflare_vless_trojan/ma
 
 | 三模式变量设置要点 | ECH-TLS | 普通TLS| 无TLS|
 | :--- | :--- | :--- | :--- |
-| 1、cf_domain（CF服务端域名:端口） | workers/pages/自定义的域名:443系端口 | pages/自定义的域名:443系端口 | workers/自定义的域名:80系端口 | 
+| 1、cf_domain（CF服务端域名:端口） | workers/pages/自定义的域名:443系端口 | pages/自定义的域名:443系端口 | workers域名:80系端口 | 
 | 2、enable_ech（ECH开关） | y开启 | n关闭 | y开启/n关闭 | 
 
 注意：
@@ -36,7 +36,7 @@ CF443系端口：443(推荐)、2053、2083、2087、2096、8443
 
 ProxyIP是否有效影响着能否访问CF网站，比如CF官网、X推特、ChatGPT等网站
 
-视频教程：[CF Socks5/Http免费代理教程：揭秘ECH Workers利弊；支持三种代理模式多端口复用，支持客户端自定义proxyip](https://youtu.be/Y_SHcD3prt8)
+视频教程：[CF Socks5/Http免费代理教程：揭秘ECH Workers利弊；支持三种代理模式多端口复用，客户端自定义proxyip](https://youtu.be/Y_SHcD3prt8)
 
 ------------------------------------------------------------
 
